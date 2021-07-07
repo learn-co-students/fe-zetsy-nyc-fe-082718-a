@@ -5,7 +5,7 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #f2ebe9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -15,6 +15,41 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
+}
+
+img{
+  border: 7px solid #a0aba7;
+}
+
+.logo:hover{
+  border: 7px solid green;
+  transform: translateY(-10px);
+}
+
+.logo{
+  width: 23%;
+}
+
+h1{
+  color: #a0aba7;
+  font-size: 4em;
+  border-bottom: 1px solid grey;
+  margin: 10px;
+}
+
+h2{
+ color: #a0aba7; 
+}
+
+.copyright{
+ float: right;
+}
+
+.clearfix{
+  opacity: 0;
+  display: block;
+  clear: both;
 }
 
 /* Write all remaining styles here */
